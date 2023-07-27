@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "avatar": "https://randomuser.me/api/portraits/women/1.jpg",
+        "title": "Jane Doe",
+        "description": "Outgoing",
+        "day": "Yesterday"
+    },
+    {
+        "id": "2",
+        "avatar": "https://randomuser.me/api/portraits/men/2.jpg",
+        "title": "John Smith",
+        "description": "Missed",
+        "day": "Today"
+    },
+    {
+        "id": "3",
+        "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+        "title": "Alice Johnson",
+        "description": "Outgoing",
+        "day": "Today"
+    },
+    {
+        "id": "4",
+        "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+        "title": "Robert Williams",
+        "description": "Incoming",
+        "day": "Yesterday"
+    },
+    {
+        "id": "5",
+        "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+        "title": "Emily Brown",
+        "description": "Outgoing",
+        "day": "Today"
+    },
+    {
+        "id": "6",
+        "avatar": "https://randomuser.me/api/portraits/men/6.jpg",
+        "title": "Michael Wilson",
+        "description": "Missed",
+        "day": "Yesterday"
+    },
+    {
+        "id": "7",
+        "avatar": "https://randomuser.me/api/portraits/women/7.jpg",
+        "title": "Sophia Lee",
+        "description": "Incoming",
+        "day": "Today"
+    },
+    {
+        "id": "8",
+        "avatar": "https://randomuser.me/api/portraits/men/8.jpg",
+        "title": "David Anderson",
+        "description": "Outgoing",
+        "day": "Yesterday"
+    },
+    {
+        "id": "9",
+        "avatar": "https://randomuser.me/api/portraits/women/9.jpg",
+        "title": "Olivia Martin",
+        "description": "Missed",
+        "day": "Today"
+    },
+    {
+        "id": "10",
+        "avatar": "https://randomuser.me/api/portraits/men/10.jpg",
+        "title": "William Clark",
+        "description": "Incoming",
+        "day": "Today"
+    }
+]
