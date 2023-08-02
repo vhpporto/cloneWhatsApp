@@ -9,22 +9,22 @@ struct CallView: View {
         NavigationView {
             VStack(alignment: .leading) {
                 List {
-                    HStack {
-                        Image(systemName: "link")
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                            .foregroundColor(.blue)
-                            .padding(10)
-                            .background(.gray.opacity(0.1))
-                            .clipShape(Circle())
-                        VStack(alignment: .leading) {
-                            Text("Create Call Link").foregroundColor(.blue)
-                            Text("Share a link for your WhatsApp call").font(.subheadline).foregroundColor(.gray)
+                    Section {
+                        HStack {
+                            Image(systemName: "link")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                                .foregroundColor(.blue)
+                                .padding(10)
+                                .background(.gray.opacity(0.1))
+                                .clipShape(Circle())
+                            VStack(alignment: .leading) {
+                                Text("Create Call Link").foregroundColor(.blue)
+                                Text("Share a link for your WhatsApp call").font(.subheadline).foregroundColor(.gray)
+                            }
+                            
                         }
-                        
                     }
-                    .listRowSeparator(.hidden)
-                    
                     ForEach(callData.calls) { call in
                         HStack {
                             if let avatarURL = call.avatar {
@@ -56,8 +56,9 @@ struct CallView: View {
                         }
                     }
                 }
-                
-                .listStyle(PlainListStyle())
+                .listStyle(.insetGrouped)
+                .searchable(text: $text)
+                .navigationTitle("Calls")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button(action: {
@@ -85,9 +86,7 @@ struct CallView: View {
                         }
                     }
                 }
-                .searchable(text: $text)
-                .listStyle(GroupedListStyle())
-                .navigationTitle("Calls")
+                
             }
         }
     }

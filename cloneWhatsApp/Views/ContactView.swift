@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContactView: View {
     @ObservedObject var contactData = ContactData()
+    @ObservedObject var chatData = ChatData()
     @State var text = ""
     
     var body: some View {
@@ -10,15 +11,20 @@ struct ContactView: View {
                 
                 List {
                     HStack {
-                        Text("Broadcast Lists").foregroundColor(.blue)
+                        Button("Broadcast List") {
+                        }
+                        .foregroundColor(.blue)
+                        
                         Spacer()
                         Text("New Group").foregroundColor(.blue)
                     }
                     .padding(.horizontal, 5)
                     .listRowSeparator(.hidden)
                     ForEach(contactData.contacts) { contact in
-                        CardView(imageName: contact.avatar, title: contact.name, description: contact.description)
-                    }
+                        NavigationLink(destination: ChatView(parameter: chatData.chats, contact: contact)) {
+                                           CardView(imageName: contact.avatar, title: contact.name, description: contact.description)
+                                       }
+                                   }
                 }
                 .listStyle(PlainListStyle())
                 .toolbar {

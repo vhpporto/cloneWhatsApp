@@ -1,0 +1,33 @@
+[
+    {
+        "remetente": "João",
+        "mensagem": "Oi, tudo bem?",
+        "data": "2023-07-31 10:00"
+    },
+    {
+        "remetente": "Maria",
+        "mensagem": "Oi João! Tudo sim, e com você?",
+        "data": "2023-07-31 10:05"
+    },
+    {
+        "remetente": "João",
+        "mensagem": "Estou bem também, obrigado!",
+        "data": "2023-07-31 10:10"
+    },
+    {
+        "remetente": "Maria",
+        "mensagem": "Que bom! Tem algum plano para hoje?",
+        "data": "2023-07-31 10:15"
+    },
+    {
+        "remetente": "João",
+        "mensagem": "Sim, vou sair com alguns amigos à noite.",
+        "data": "2023-07-31 10:20"
+    },
+    {
+        "remetente": "Maria",
+        "mensagem": "Legal! Divirta-se!",
+        "data": "2023-07-31 10:25"
+    }
+]
+ 

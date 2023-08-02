@@ -9,18 +9,29 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
+            Status()
+                .tabItem{
+                    TabItemView(imageName: "app.badge", title: "Status")
+                }
             CallView()
-            .tabItem {
-                TabItemView(imageName: "phone", title: "Calls")
-            }
+                .tabItem {
+                    TabItemView(imageName: "phone", title: "Calls")
+                }
             ContactView()
-            .tabItem {
-                TabItemView(imageName: "message", title: "Chats")
-            }
+                .tabItem {
+                    TabItemView(imageName: "message", title: "Chats")
+                }
+            Settings()
+                .tabItem {
+                    TabItemView(imageName: "gear", title: "Settings")
+                }
+            
             
         }
     }
 }
+
+
 
 
 struct TabItemView: View {

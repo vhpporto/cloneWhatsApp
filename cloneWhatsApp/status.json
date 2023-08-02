@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "url": "https://randomuser.me/api/portraits/men/1.jpg",
+        "name": "John Smith",
+        "time": "1h ago"
+    },
+    {
+        "id": 2,
+        "url": "https://randomuser.me/api/portraits/women/2.jpg",
+        "name": "Emma Johnson",
+        "time": "3h ago"
+    },
+    {
+        "id": 3,
+        "url": "https://randomuser.me/api/portraits/men/3.jpg",
+        "name": "Michael Brown",
+        "time": "3h ago"
+    },
+    {
+        "id": 4,
+        "url": "https://randomuser.me/api/portraits/women/4.jpg",
+        "name": "Sophia Martinez",
+        "time": "6h ago"
+    }
+]

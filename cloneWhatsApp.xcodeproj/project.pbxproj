@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89420D832A787ECC00E506F5 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89420D822A787ECC00E506F5 /* ChatView.swift */; };
+		89420D852A787FD800E506F5 /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = 89420D842A787FD800E506F5 /* chat.json */; };
+		89420D872A78800B00E506F5 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89420D862A78800B00E506F5 /* Chat.swift */; };
+		89420D892A78804300E506F5 /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89420D882A78804300E506F5 /* ChatData.swift */; };
 		8986C44F2A71F6E500C182A0 /* CallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C44E2A71F6E500C182A0 /* CallData.swift */; };
 		8986C4512A71F6F100C182A0 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4502A71F6F100C182A0 /* ContactData.swift */; };
 		8986C4532A71F76D00C182A0 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4522A71F76D00C182A0 /* Call.swift */; };
 		8986C4572A71F78800C182A0 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4562A71F78800C182A0 /* Contact.swift */; };
 		8986C45A2A71F84100C182A0 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4592A71F84100C182A0 /* ContactView.swift */; };
 		8986C45D2A71F98400C182A0 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C45C2A71F98400C182A0 /* CallView.swift */; };
+		8986C4612A73413B00C182A0 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4602A73413B00C182A0 /* Settings.swift */; };
+		8986C4632A773A0F00C182A0 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4622A773A0E00C182A0 /* Status.swift */; };
+		8986C4652A773DC100C182A0 /* status.json in Resources */ = {isa = PBXBuildFile; fileRef = 8986C4642A773DC100C182A0 /* status.json */; };
+		8986C4672A773DF100C182A0 /* WhatsAppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4662A773DF100C182A0 /* WhatsAppStatus.swift */; };
+		8986C4692A773E1200C182A0 /* StatusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C4682A773E1200C182A0 /* StatusData.swift */; };
+		8986C46B2A77EF9F00C182A0 /* StatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8986C46A2A77EF9F00C182A0 /* StatusCard.swift */; };
 		89DE0D582A7093410058EB8D /* cloneWhatsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DE0D572A7093410058EB8D /* cloneWhatsAppApp.swift */; };
 		89DE0D5C2A7093430058EB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DE0D5B2A7093430058EB8D /* Assets.xcassets */; };
 		89DE0D602A7093430058EB8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DE0D5F2A7093430058EB8D /* Preview Assets.xcassets */; };
@@ -24,12 +34,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89420D822A787ECC00E506F5 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		89420D842A787FD800E506F5 /* chat.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
+		89420D862A78800B00E506F5 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		89420D882A78804300E506F5 /* ChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
 		8986C44E2A71F6E500C182A0 /* CallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallData.swift; sourceTree = "<group>"; };
 		8986C4502A71F6F100C182A0 /* ContactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
 		8986C4522A71F76D00C182A0 /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		8986C4562A71F78800C182A0 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		8986C4592A71F84100C182A0 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		8986C45C2A71F98400C182A0 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		8986C4602A73413B00C182A0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8986C4622A773A0E00C182A0 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		8986C4642A773DC100C182A0 /* status.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = status.json; sourceTree = "<group>"; };
+		8986C4662A773DF100C182A0 /* WhatsAppStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppStatus.swift; sourceTree = "<group>"; };
+		8986C4682A773E1200C182A0 /* StatusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusData.swift; sourceTree = "<group>"; };
+		8986C46A2A77EF9F00C182A0 /* StatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCard.swift; sourceTree = "<group>"; };
 		89DE0D542A7093410058EB8D /* cloneWhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloneWhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DE0D572A7093410058EB8D /* cloneWhatsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloneWhatsAppApp.swift; sourceTree = "<group>"; };
 		89DE0D5B2A7093430058EB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +78,8 @@
 			children = (
 				8986C4522A71F76D00C182A0 /* Call.swift */,
 				8986C4562A71F78800C182A0 /* Contact.swift */,
+				8986C4662A773DF100C182A0 /* WhatsAppStatus.swift */,
+				89420D862A78800B00E506F5 /* Chat.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -67,6 +89,8 @@
 			children = (
 				8986C44E2A71F6E500C182A0 /* CallData.swift */,
 				8986C4502A71F6F100C182A0 /* ContactData.swift */,
+				8986C4682A773E1200C182A0 /* StatusData.swift */,
+				89420D882A78804300E506F5 /* ChatData.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -76,6 +100,9 @@
 			children = (
 				8986C4592A71F84100C182A0 /* ContactView.swift */,
 				8986C45C2A71F98400C182A0 /* CallView.swift */,
+				8986C4622A773A0E00C182A0 /* Status.swift */,
+				8986C4602A73413B00C182A0 /* Settings.swift */,
+				89420D822A787ECC00E506F5 /* ChatView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -83,6 +110,9 @@
 		8986C45B2A71F84E00C182A0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				89DE0D662A7093850058EB8D /* Calls.swift */,
+				89DE0D682A7093850058EB8D /* CardView.swift */,
+				8986C46A2A77EF9F00C182A0 /* StatusCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -111,10 +141,10 @@
 				8986C44D2A71F6D100C182A0 /* ViewModels */,
 				8986C44C2A71F69400C182A0 /* Models */,
 				89DE0D6E2A709C870058EB8D /* calls.json */,
+				8986C4642A773DC100C182A0 /* status.json */,
 				89DE0D6C2A7094530058EB8D /* contacts.json */,
+				89420D842A787FD800E506F5 /* chat.json */,
 				89DE0D572A7093410058EB8D /* cloneWhatsAppApp.swift */,
-				89DE0D682A7093850058EB8D /* CardView.swift */,
-				89DE0D662A7093850058EB8D /* Calls.swift */,
 				89DE0D672A7093850058EB8D /* ContentView.swift */,
 				89DE0D5B2A7093430058EB8D /* Assets.xcassets */,
 				89DE0D5D2A7093430058EB8D /* cloneWhatsApp.entitlements */,
@@ -190,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89DE0D602A7093430058EB8D /* Preview Assets.xcassets in Resources */,
+				8986C4652A773DC100C182A0 /* status.json in Resources */,
 				89DE0D6F2A709C870058EB8D /* calls.json in Resources */,
+				89420D852A787FD800E506F5 /* chat.json in Resources */,
 				89DE0D6D2A7094530058EB8D /* contacts.json in Resources */,
 				89DE0D5C2A7093430058EB8D /* Assets.xcassets in Resources */,
 			);
@@ -203,16 +235,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8986C46B2A77EF9F00C182A0 /* StatusCard.swift in Sources */,
 				89DE0D692A7093850058EB8D /* Calls.swift in Sources */,
+				89420D872A78800B00E506F5 /* Chat.swift in Sources */,
 				89DE0D6A2A7093850058EB8D /* ContentView.swift in Sources */,
 				8986C4512A71F6F100C182A0 /* ContactData.swift in Sources */,
+				8986C4692A773E1200C182A0 /* StatusData.swift in Sources */,
+				89420D832A787ECC00E506F5 /* ChatView.swift in Sources */,
 				89DE0D582A7093410058EB8D /* cloneWhatsAppApp.swift in Sources */,
 				8986C45A2A71F84100C182A0 /* ContactView.swift in Sources */,
+				89420D892A78804300E506F5 /* ChatData.swift in Sources */,
 				8986C4572A71F78800C182A0 /* Contact.swift in Sources */,
 				89DE0D6B2A7093850058EB8D /* CardView.swift in Sources */,
 				8986C4532A71F76D00C182A0 /* Call.swift in Sources */,
 				8986C45D2A71F98400C182A0 /* CallView.swift in Sources */,
+				8986C4672A773DF100C182A0 /* WhatsAppStatus.swift in Sources */,
+				8986C4612A73413B00C182A0 /* Settings.swift in Sources */,
 				8986C44F2A71F6E500C182A0 /* CallData.swift in Sources */,
+				8986C4632A773A0F00C182A0 /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +381,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WhatsUp;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -349,8 +390,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -379,6 +420,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WhatsUp;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -387,8 +429,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
